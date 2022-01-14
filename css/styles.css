@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+/* Prima Riga */
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+.box1 {
+  margin:0;
+  width: 20%;
+}
+
+.box2 {
+  margin:0;
+  width:80%;
+}
+
+.headline {
+  background-color: #D9D9D9;
+  padding: 10px 2rem;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding: 15px 0 5px;
+}
+
+.jobtitle {
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 0 15px;
+}
+
+/*Seconda riga (Parte Sinistra)*/
+
+.container2 {
+  display: flex;
+  align-items: stretch;
+}
+
+.box1 {
+    background-color: #145DA0;
+}
+
+.box1text {
+  color: white;
+  padding-left: 5%;
+  flex: 1;
+}
+
+.box1title {
+  font-size: 24px;
+  margin:0;
+  padding: 1rem 0 5px 0;
+}
+
+.box1hr {
+  border: solid white;
+  margin: 0 15% 0 0;
+}
+
+.box1subtitle {
+  font-weight: bold;
+  margin: 15px 15% 0 0;
+}
+
+.box1p {
+  margin: 0;
+  padding: 5px 0 15px;
+}
+
+/*Seconda riga (Parte Destra)*/
+
+.box2margintext {
+  margin-left: 2rem;
+}
+
+.box2title {
+  font-size: 24px;
+  margin: 1rem 0 10px;
+}
+
+.box2hr {
+  border: solid #145DA0;
+  margin: 0 10% 0 0;
+}
+
+.container2 {
+  display: flex;
+}
+
+.minibox1 {
+  width: 70%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.minibox2 {
+  width: 30%;
+  margin-top:1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experiencedate {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 14px;
+}
+
+.listtask {
+  margin-top: 0.5rem;
+}
